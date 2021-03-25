@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Break Out!</title>
+    <script src="hw2.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital@1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="intro">
+        <h1 id="introintro">Welcome to Break Out!</h1>
+    </div>
+    <div id="littlebox">
+        <h1>
+            Character Creation!
+        </h1>
+        <button onclick="charSet()">Click!</button>
+        <h2 id="chars"></h2>
+        <h2 id="char"></h2>
+    </div>
+
+    <div id="bigbox">
+
+        <div id="box">
+            <h1>You have been pulled from your cell to speak on a murder you've
+                witnessed centuries ago. If you confess, you'll be
+                assassinated in the first moments of returning to your cell.
+            </h1>
+            <h1 id="changer">
+                <script>
+                    document.write(challenges[c]);
+                </script>
+            </h1>
+            <div class="container">
+                <div id="text">
+                    <h3>Choices!</h3>
+                </div>
+                <div id="option-buttons" class="btn-grid">
+                    <button id="one" onclick="first()">First Option</button>
+                    <button id="two" onclick="second()">Second Option</button>
+                    <h1 id="change">
+                        <script>
+                            check();
+                            both();
+                        </script>
+                    </h1>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

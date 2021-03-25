@@ -1,0 +1,46 @@
+body{
+    background-image: url(https://strategy.channelfireball.com/wp-content/uploads/2016/06/jaces-sanctum.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Averia Serif Libre', cursive;
+}
+
+#intro{
+    display: block;
+    background-color: slategray;
+    width: 20vw;
+    border-radius: 20px;
+    transform: translateX(750px);
+}
+
+#introintro{
+    padding: 10px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+#bigbox{
+    display: block;
+    background-color: slategray;
+    width: 40vw;
+    height: 80vh;
+    border-radius: 20px;
+    text-align: center;
+    transform: translateX(550px) translateY(-220px);
+}
+#box{
+    padding: 5px;
+}
+#changer{
+    color: brown;
+}
+#littlebox{
+    display: block;
+    background-color: slategray;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    padding: 10px;
+    transform: translateX(200px) translateY(100px);
+    border-radius: 10px;
+    }
